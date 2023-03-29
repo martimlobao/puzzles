@@ -126,10 +126,12 @@ We can also convert this to a Python function for fun (and readability?):
 import math
 
 
-def is_power(n: int, base: int) -> bool:
-    while n % base == 0:
-        n = n // base
-    return n == 1
+def is_power(number: int, base: int) -> bool:
+    if number == 1:
+        return True
+    while number % base == 0:
+        number //= base
+    return number == 1
 
 
 def coins_produced(n: int) -> int:
