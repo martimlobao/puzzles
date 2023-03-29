@@ -21,7 +21,7 @@ The problem is to find out **how many coins will come out of the bag if you plac
 
 ## Bonus problem
 
-Can you come up with a closed formula for the number of coins that comes out of the bag after one placement?
+**Can you come up with a closed formula for the number of coins that comes out of the bag after one placement?**
 
 ## Solution
 
