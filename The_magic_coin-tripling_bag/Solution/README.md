@@ -66,6 +66,10 @@ Finally, as before, we know that $f(13)$ must be either 22 or 23 which forces $f
 
 **Final answer:** The bag will produce 22 coins when you place in 13.
 
+## Alternative solution
+
+You can find TED-Ed's solution to the problem on YouTube starting at [2:00](https://youtu.be/qgvmJTmJIKs?t=120). Their solution is the same as mine, but with prettier drawings.
+
 ## Solution to bonus problem
 
 I ran through a couple more examples to see if a pattern emerged or if a closed formula was even possible. Could there be some larger number for which we can't resolve to a unique number?
