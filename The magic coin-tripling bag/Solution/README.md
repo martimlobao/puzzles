@@ -109,8 +109,8 @@ f(n)=\left\{
     \begin{array}{ll}
         2n & \text{if }n\text{ is a power of 3}\\
         \frac{3n}{2} & \text{if }n\text{ is 2 times a power of 3}\\
-        2\times3^m + (n - 3^m) & \text{if }\exists m\in\N: 3^m< n< 2\times 3^m \\
-        3^{m+1} + 3\times(n-2\times3^m) & \text{if }\exists m\in\N: 2\times 3^m< n< 3^{m+1} \\
+        2\times3^m + (n - 3^m) & \text{if }\exists m\in\mathbb{N}: 3^m< n< 2\times 3^m \\
+        3^{m+1} + 3\times(n-2\times3^m) & \text{if }\exists m\in\mathbb{N}: 2\times 3^m< n< 3^{m+1} \\
     \end{array}
 \right.
 $$
