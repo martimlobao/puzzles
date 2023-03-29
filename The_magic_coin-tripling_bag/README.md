@@ -2,7 +2,7 @@
 
 Date: 2023-03-29\
 Difficulty: 🧠🧠\
-Time to solve: ⏳ (1 hour over 2 sittings)\
+Time to solve: ⏳⏳ (1 hour over 2 sittings)\
 Source: [TED-Ed: This one weird trick will get you infinite gold - Dan Finkel](https://www.youtube.com/watch?v=qgvmJTmJIKs)
 
 ## Problem
