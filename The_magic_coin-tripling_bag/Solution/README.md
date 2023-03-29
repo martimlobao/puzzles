@@ -100,19 +100,20 @@ An even clearer pattern emerges when looking at successive differences (see [tab
 
 Finally, we note that the values of $n$ for which the ratio is the greatest (i.e. 2) are the powers of 3, and the ratio is the smallest (i.e. 1.5) when $n$ is two times a power of 3.
 
-Putting all of this together, we obtain the following closed formula for $f$, the number of coins produced by the bag:
+Putting all of this together, we can obtain a closed formula for $f$, the number of coins produced by the bag.
 
 **Final answer:**
 
+Given an input number of coins $n$, $f(n)$ is given by the following piecewise function.
+
 $$
-f(n)=\left\{
-    \begin{array}{ll}
+f(n) =
+    \begin{cases}
         2n & \text{if }n\text{ is a power of 3}\\
         \frac{3n}{2} & \text{if }n\text{ is 2 times a power of 3}\\
         2\times3^m + (n - 3^m) & \text{if }\exists m\in\mathbb{N}: 3^m< n< 2\times 3^m \\
         3^{m+1} + 3\times(n-2\times3^m) & \text{if }\exists m\in\mathbb{N}: 2\times 3^m< n< 3^{m+1} \\
-    \end{array}
-\right.
+    \end{cases}
 $$
 
 We can also convert this to a Python function for fun (and readability?):
