@@ -1,8 +1,8 @@
 # Solution
 
-My immediate first approach was to come up with a closed formula for the number of coins produced by the bag. If $f$ is the function of gold coins produced by the bag and $n$ is the number of coins put into it, then we want to find $f(n)$ when $n$ is 13.
+My immediate approach was to come up with a closed formula for the number of coins produced by the bag. If $f$ is the function of gold coins produced by the bag and $n$ is the number of coins put into it, then we want to find $f(n)$ when $n$ is 13.
 
-We know that $f(f(n))=3n$, but since we're constrained by the fact that the bag must always produce a whole number of coins for a given integer input, the naive solution $f(n)=\sqrt{n}$ doesn't work. I tried a few different functions, such as $f(n)=an-b$ or $f(n)=an(n-b)$ (_"Maybe removing and re-adding something will cancel it out?"_), and attempted to solve for $f(f(n))=3n$ but that resulted in a dead end.
+We know that $f(f(n))=3n$, but since we're constrained by the fact that the bag must always produce a whole number of coins for a given integer input, the naive solution $f(n)=\sqrt{3}n$ doesn't work. I tried a few different functions, such as $f(n)=an-b$ or $f(n)=an(n-b)$ (_"Maybe removing and re-adding something will cancel it out?"_), and attempted to solve for $f(f(n))=3n$ but that resulted in a dead end.
 
 After taking a step back, I tried reducing the problem down to its base form: "If I put in 1 coin, can I find out how many coins will come out?" This ended up seeming like a promising path forward, since I know that the answer must be 2, since it must be greater than 1 by rule [(2)](../README.md#problem) and less than 3 by rule [(3)](../README.md#problem). So we can start to fill out the table below: the first line allows us to fill in the second line ($f(2)=3$), which in turn allows up to fill in the third (if $f(n) = 3$ then $f(f(n))=6$). Similarly, we can fill in the 6th and 9th lines.
 
